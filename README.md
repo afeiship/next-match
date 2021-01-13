@@ -16,9 +16,10 @@ npm install -S @jswork/next-match
 import '@jswork/next-match';
 
 const str = '/api/v1/{id}/{uuid}/{a.b}';
+const regexp = /{(.*?)}/g;
 
-nx.match(str, /{(.*?)}/g, 0);   // [ '{id}', '{uuid}', '{a.b}' ]
-nx.match(str, /{(.*?)}/g, 1);   // ['id', 'uuid', 'a.b']
+nx.match(str, regexp, 0);   // [ '{id}', '{uuid}', '{a.b}' ]
+nx.match(str, regexp, 1);   // ['id', 'uuid', 'a.b']
 ```
 
 ## license
