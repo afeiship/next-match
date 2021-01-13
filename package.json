@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Math groups with next.",
   "homepage": "https://github.com/afeiship/next-match",
   "author": {
@@ -36,5 +36,14 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "match",
+    "jswork",
+    "nx",
+    "group",
+    "string",
+    "exec"
+  ]
 }

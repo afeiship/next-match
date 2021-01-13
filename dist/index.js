@@ -2,8 +2,8 @@
  * name: @jswork/next-match
  * description: Math groups with next.
  * homepage: https://github.com/afeiship/next-match
- * version: 1.0.0
- * date: 2021-01-13 13:22:59
+ * version: 1.0.1
+ * date: 2021-01-13 13:23:52
  * license: MIT
  */
 
