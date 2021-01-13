@@ -22,6 +22,9 @@ nx.match(str, regexp, 0);   // [ '{id}', '{uuid}', '{a.b}' ]
 nx.match(str, regexp, 1);   // ['id', 'uuid', 'a.b']
 ```
 
+## resources
+- https://stackoverflow.com/questions/432493/how-do-you-access-the-matched-groups-in-a-javascript-regular-expression
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-match/blob/master/LICENSE.txt).
 
